@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=DM+Sans:opsz,wght@9..40,700&family=Inter&family=Mada&family=Roboto&family=Rubik&display=swap');
+
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    background-color: #000;
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #757575;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-container:hover{
+    transition: all ease 0.9s;
+    filter: drop-shadow(0px 1px 8px #ffffff);
+}
+
+#studentForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#studentForm input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #000;
+    color: white;
+}
+
+#addEditButton {
+    background-color: #f7f7f7;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addEditButton:hover{
+    background-color: rgb(0, 85, 182);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.1s;
+    filter: drop-shadow(0px 1px 5px #1e8bff);
+}
+
+.searchbox{
+    width: 99%;
+    padding: 8px;
+    background-color: #000;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.table-container {
+    margin: 20px auto;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+th {
+    background-color: #000000;
+}
+
+
+/* Add any additional styling as needed */
